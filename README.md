@@ -1,11 +1,15 @@
 # Commonly Interesting Images
-The "FlickrUser" dataset is introduced as part of the research work titled "Commonly Interesting Images" authored by Fitim Abdullahu and Helmut Grabner. This dataset has been presented at the European Conference on Computer Vision 2024 (ECCV 2024).
+The _FlickrUser_ dataset is introduced as part of the _Commonly Interesting Images_ research work, which is authored by Fitim Abdullahu and Helmut Grabner. This dataset was presented at the European Conference on Computer Vision 2024 (ECCV 2024).
 
-## Dataset Description
-The FlickrUser dataset contains 500k images from close to 2.5k users of the popular photo-sharing platform Flickr. The download link provides the file FlickrUser.csv, which contains detailed information about the users and the images.
+## Dataset
+The _FlickrUser_ dataset contains 500k images from close to 2.5k users of the popular photo-sharing platform Flickr. The download link provides the file _FlickrUser.csv_, which contains detailed information about the users and the images.
+
+### Download Link
+[FlickrUser.csv](https://drive.google.com/uc?id=1Q2IJi_xn2cbUTcmtJ26rLPvKcjWT1bsb&export=download)
 
 ### CSV Columns Description
-The FlickrUser.csv file includes the following columns:
+The _FlickrUser.csv_ file includes the following columns:
+
 | Column Name                         | Description                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | **user**                            | Unique user ID                                                                              |
@@ -23,8 +27,8 @@ The FlickrUser.csv file includes the following columns:
 | **img_owner_occupation**            | Shows the occupation of the image owner                                                     |
 | **set**                             | Indicates which images have been used to define the CI score                                |
 | **ci_score**                        | CI score of the image, indicating its level of interest                                     |
-| **cluster_label**                   | Cluster label of the image, used for categorization                                         |
+| **cluster_label**                   | Cluster label of the image used for categorization                                         |
 | **partition**                       | Partition of the image, for dataset splitting purposes                                      |
 | **group**                           | Indicates the group in which the image is categorized (0: commonly interesting, 1: interplay, 2: subjective interesting) |
-| **photographic styles & aesthetic score** | Computed using the [VILA model](http://example.com) (opens in new tab), includes various photographic style metrics such as complementary colors, duo tones, HDR, etc. |
-| **emotions**                        | Computed using CLIP, includes emotion score, specific emotions, and emotion categories      |
+| **photographic styles & aesthetic score** | Computed using the [VILA](https://openaccess.thecvf.com/content/CVPR2023/papers/Ke_VILA_Learning_Image_Aesthetics_From_User_Comments_With_Vision-Language_Pretraining_CVPR_2023_paper.pdf) model, includes various photographic style metrics such as complementary colors, duo tones, HDR, etc. |
+| **emotions**                        | Computed using [CLIP](https://arxiv.org/abs/2103.00020), includes emotion score, specific emotions, and emotion categories      |
