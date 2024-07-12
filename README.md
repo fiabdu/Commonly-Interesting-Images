@@ -1,5 +1,7 @@
 # Commonly Interesting Images
-
+<p align="center">
+<img src="https://github.com/user-attachments/assets/934bdbff-1ef7-4a4b-bf0c-c54901517671" width="75%">
+</p>
 
 The _FlickrUser_ dataset is introduced as part of the _Commonly Interesting Images_ research work, which is authored by Fitim Abdullahu and Helmut Grabner. This dataset was presented at the European Conference on Computer Vision 2024 (ECCV 2024).
 
