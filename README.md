@@ -6,11 +6,19 @@
 The _FlickrUser_ dataset is introduced as part of the _Commonly Interesting Images_ research work, which is authored by Fitim Abdullahu and Helmut Grabner. This dataset was presented at the European Conference on Computer Vision 2024 (ECCV 2024).
 
 ## Dataset
-The _FlickrUser_ dataset contains 500k images from close to 2.5k users of the popular photo-sharing platform Flickr. The download links provide the files _FlickrUser_defintion.csv_ and _FlickrUser_additional.csv_, which includes detailed information about the users and the images. Use the Jupyter notebook Playground.ipynb to save and load the data with Python. 
+The _FlickrUser_ dataset contains 500k images from close to 2.5k users of the popular photo-sharing platform Flickr. The download links provide the files _FlickrUser_defintion.csv_ and _FlickrUser_additional.csv_, which include detailed information about the users and the images. You can also use the Jupyter notebook Playground.ipynb to save and load the data using Python. 
 
 ### Download Link
 [FlickrUser_definition.csv](https://drive.google.com/uc?id=1wX8Ti3opqCS_AnXU88sixHElbcS_Lj03&export=download)  
 [FlickrUser_additional.csv](https://drive.google.com/uc?id=1j8J6i14MqyRtlwPGPfNC5lxqIzX_e1N_&export=download)
+
+### Set up for Playground.ipynb
+
+```
+conda create -n envInt python=3.10
+conda activate envInt
+pip3 install -r requirements.txt
+```
 
 ### CSV Columns Description
 The _FlickrUser_definition.csv_ file includes the following columns:
