@@ -3,7 +3,7 @@
 <img src="https://github.com/user-attachments/assets/934bdbff-1ef7-4a4b-bf0c-c54901517671" width="75%">
 </p>
 
-The _FlickrUser_ dataset is introduced as part of the _Commonly Interesting Images_ research work, which is authored by Fitim Abdullahu and Helmut Grabner. This dataset was presented at the European Conference on Computer Vision 2024 (ECCV 2024).
+The _FlickrUser_ dataset is introduced as part of the [_Commonly Interesting Images_](https://arxiv.org/abs/2409.16736) research work, which is authored by Fitim Abdullahu and Helmut Grabner. This dataset was presented at the European Conference on Computer Vision 2024 (ECCV 2024).
 
 ## Dataset
 The _FlickrUser_ dataset contains 500k images from close to 2.5k users of the popular photo-sharing platform Flickr. The download links provide the files _FlickrUser_defintion.csv_ and _FlickrUser_additional.csv_, which include detailed information about the users and the images. You can also use the Jupyter notebook Playground.ipynb to save and load the data using Python. 
@@ -49,3 +49,15 @@ The _FlickrUser_definition.csv_ file includes the following columns:
 | ci_score                        | CI score of the image, indicating its level of interest                                     |
 
 The _FlickrUser_additional.csv_ file includes only the Flickr Meta-Data columns and the $CI_{R}$ score computed using the computational model.
+
+### Citation
+```
+@inproceedings{abdullahu2025commonly,
+  title={Commonly Interesting Images},
+  author={Abdullahu, Fitim and Grabner, Helmut},
+  booktitle={European Conference on Computer Vision},
+  pages={180--198},
+  year={2025},
+  organization={Springer}
+}
+```
